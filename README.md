@@ -70,86 +70,86 @@ Content script using `unsafeWindow` to access variables defined in a page script
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Access_objects_defined_by_page_scripts)
 * Modules used: [`page-mod`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod)
 
-**[page-mod-windowpostmessage-from-content-script](page-mod-windowpostmessage-from-content-script)
+**[page-mod-windowpostmessage-from-content-script](page-mod-windowpostmessage-from-content-script)**
 Use `window.postMessage` to send a message from a content script to a page script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Using_the_DOM_postMessage_API)
 * Modules used: [`page-mod`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod)
 
-**[page-mod-windowpostmessage-from-page-script](page-mod-windowpostmessage-from-page-script)
+**[page-mod-windowpostmessage-from-page-script](page-mod-windowpostmessage-from-page-script)**
 Use `window.postMessage` to send a message from a content script to a page script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Using_the_DOM_postMessage_API)
 * Modules used: [`page-mod`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod)
 
-**[page-worker-button-once](page-mod-windowpostmessage-from-page-script)
+**[page-worker-button-once](page-mod-windowpostmessage-from-page-script)**
 Use `port.once()` to receive only the first occurrence of a message.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#port.once%28%29)
 * Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker), [ui/button/action](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
 
 
-**[page-worker-button-removelistener](page-worker-button-removelistener)
+**[page-worker-button-removelistener](page-worker-button-removelistener)**
 Use `port.removeListener()` to stop listening for messages.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#port.removeListener%28%29)
 * Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker), [ui/button/action](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
 
-**[page-worker-port](page-worker-port)
+**[page-worker-port](page-worker-port)**
 Use `port` to communicate between the main add-on and a content script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Accessing_port_in_the_add-on_script)
 * Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker)
 
-**[page-worker-x-domain-iframes](page-worker-x-domain-iframes)
+**[page-worker-x-domain-iframes](page-worker-x-domain-iframes)**
 Grant a content script cross-domain privileges, using the `cross-domain-content` option under the [`permissions`](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/package_json#permissions) key, and use that to access content from a different domain inside an iframe.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Cross_Domain_Content_Scripts)
 * Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker)
 
-**[page-worker-x-domain-xhr](page-worker-x-domain-xhr)
+**[page-worker-x-domain-xhr](page-worker-x-domain-xhr)**
 Grant a content script cross-domain privileges, using the `cross-domain-content` option under the [`permissions`](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/package_json#permissions) key, and use that to execute cross-domain XHR. Note that this example requires an API key from the [Met Office DataPoint](http://www.metoffice.gov.uk/datapoint) service.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Cross_Domain_Content_Scripts)
 * Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker)
 
-**[tabs-button-port](tabs-button-port)
+**[tabs-button-port](tabs-button-port)**
 Use `port` to communicate between the main add-on code and a content script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Accessing_port_in_the_add-on_script)
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs), [ui/button/action](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
 
-**[tabs-cloneinto](tabs-cloneinto)
+**[tabs-cloneinto](tabs-cloneinto)**
 Use [cloneInto](https://developer.mozilla.org/en-US/docs/Components.utils.cloneInto) to share an object from a content script to a page script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Expose_objects_to_page_scripts)
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs)
 
-**[tabs-content-script-options](tabs-content-script-options)
+**[tabs-content-script-options](tabs-content-script-options)**
 Provide configuration options to a content script with `contentScriptOptions`.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Passing_configuration_options)
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs)
 
-**[tabs-content-script-string](tabs-content-script-string)
+**[tabs-content-script-string](tabs-content-script-string)**
 Pass a content script as a string.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Loading_content_scripts)
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs)
 
-**[tabs-createobjectin](tabs-createobjectin)
+**[tabs-createobjectin](tabs-createobjectin)**
 Use [createObjectIn](https://developer.mozilla.org/en-US/docs/Components.utils.createObjectIn) to create a new object in a page script scope, from a content script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Expose_objects_to_page_scripts)
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs)
 
-**[tabs-exportfunction](tabs-exportfunction)
+**[tabs-exportfunction](tabs-exportfunction)**
 Use [exportFunction](https://developer.mozilla.org/en-US/docs/Components.utils.exportFunction) to share an function from a content script to a page script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Expose_objects_to_page_scripts)
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs)
 
-**[tabs-port](tabs-port)
+**[tabs-port](tabs-port)**
 Use `port` to communicate between the main add-on code and a content script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Accessing_port_in_the_add-on_script)
