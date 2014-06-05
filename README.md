@@ -6,6 +6,8 @@ Note that although all these examples should work fine and are complete runnable
 
 You're welcome to add more examples! If you do, please update the list below with a link to the example, a very short description of what the example is demonstrating, and a list of the main modules it uses.
 
+## Index of examples
+
 **[page-mod-content-script-file](page-mod-content-script-file)**  
 Use contentScriptFile to pass a content script stored as a separate file.
 
