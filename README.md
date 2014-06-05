@@ -82,18 +82,18 @@ Use `window.postMessage` to send a message from a content script to a page scrip
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Using_the_DOM_postMessage_API)
 * Modules used: [`page-mod`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod)
 
-**[page-worker-button-once](page-mod-windowpostmessage-from-page-script)**  
+**[page-worker-button-once](page-worker-button-once)**  
 Use `port.once()` to receive only the first occurrence of a message.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#port.once%28%29)
-* Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker), [ui/button/action](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
+* Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker), [`ui/button/action`](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
 
 
 **[page-worker-button-removelistener](page-worker-button-removelistener)**  
 Use `port.removeListener()` to stop listening for messages.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#port.removeListener%28%29)
-* Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker), [ui/button/action](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
+* Modules used: [`page-worker`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-worker), [`ui/button/action`](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
 
 **[page-worker-port](page-worker-port)**  
 Use `port` to communicate between the main add-on and a content script.
@@ -117,7 +117,7 @@ Grant a content script cross-domain privileges, using the `cross-domain-content`
 Use `port` to communicate between the main add-on code and a content script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Accessing_port_in_the_add-on_script)
-* Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs), [ui/button/action](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
+* Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs), [`ui/button/action`](https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/ui_button_action)
 
 **[tabs-cloneinto](tabs-cloneinto)**  
 Use [cloneInto](https://developer.mozilla.org/en-US/docs/Components.utils.cloneInto) to share an object from a content script to a page script.
