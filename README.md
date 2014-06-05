@@ -6,12 +6,9 @@ Note that although all these examples should work fine and are complete runnable
 
 You're welcome to add more examples! If you do, please update the list below with a link to the example, a very short description of what the example is demonstrating, and a list of the main modules it uses.
 
-**[page-mod-content-script-file](page-mod-content-script-file)**
-
-Use contentScriptFile to pass a content script stored as a separate file.
-
-https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Loading_content_scripts
-
+**[page-mod-content-script-file](page-mod-content-script-file)**  
+Use contentScriptFile to pass a content script stored as a separate file.  
+https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Loading_content_scripts  
 Uses: page-mod.
 
 **[page-mod-content-script-insulation](page-mod-content-script-insulation)**
