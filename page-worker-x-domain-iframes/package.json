@@ -1,0 +1,12 @@
+{
+  "name": "page-worker-x-domain-iframes",
+  "title": "page-worker-x-domain-iframes",
+  "id": "jid1-ZNBOfQt8HRykrQ",
+  "description": "a basic add-on",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "permissions": {
+    "cross-domain-content": ["http://en.m.wikipedia.org/"]
+  }
+}

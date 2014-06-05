@@ -1,0 +1,21 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <input id="works" type="button" value="I will work"/>
+    <input id="fails" type="button" value="I will not work"/>
+
+    <script>
+      var works = document.getElementById("works");
+      works.addEventListener("click", function() {
+        alert(clonedContentScriptObject.greeting);
+      }, false);
+
+      var fails = document.getElementById("fails");
+      fails.addEventListener("click", function() {
+        alert(assignedContentScriptObject.greeting);
+      }, false);
+    </script>
+
+  </body>
+</html>

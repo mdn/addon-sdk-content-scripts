@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      function sendMessage() {
+        window.postMessage("Message from page script", window.location.origin);
+      }
+    </script>
+    <button onclick="sendMessage()">Send Message</button>
+  </body>
+ 
+</html>

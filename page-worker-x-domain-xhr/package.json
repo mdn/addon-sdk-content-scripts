@@ -1,0 +1,12 @@
+{
+  "name": "page-worker-x-domain-xhr",
+  "title": "page-worker-x-domain-xhr",
+  "id": "jid1-5esamc6xT6uIVQ",
+  "description": "a basic add-on",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "permissions": {
+    "cross-domain-content": ["http://datapoint.metoffice.gov.uk"]
+  }
+}

@@ -1,0 +1,13 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <input id="test" type="button" value="Click me"/>
+    <script>
+      var test = document.getElementById("test");
+      test.addEventListener("click", function() {
+        alert(window.greetme("page script"));
+      }, false);
+    </script>
+  </body>
+</html>

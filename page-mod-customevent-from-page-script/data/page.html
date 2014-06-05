@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      function sendMessage() {
+        var event = document.createEvent('CustomEvent');
+        event.initCustomEvent("addon-message", true, true, { hello: 'world' });
+        document.documentElement.dispatchEvent(event);
+      }
+    </script>
+    <button onclick="sendMessage()">Send Message</button>
+  </body>
+</html>
