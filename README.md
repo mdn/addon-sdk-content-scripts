@@ -8,8 +8,9 @@ You're welcome to add more examples! If you do, please update the list below wit
 
 **[page-mod-content-script-file](page-mod-content-script-file)**  
 Use contentScriptFile to pass a content script stored as a separate file.  
-https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Loading_content_scripts  
-Uses: page-mod.
+
+* MDN docs: https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts#Loading_content_scripts  
+* Modules used: [`page-mod`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod).
 
 **[page-mod-content-script-insulation](page-mod-content-script-insulation)**
 Show how content scripts and page scripts can't directly access each other.
