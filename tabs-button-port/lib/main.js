@@ -4,13 +4,6 @@ var tabs = require("sdk/tabs");
 var buttons = require("sdk/ui/button/action");
 var self = require("sdk/self");
 
-buttons.ActionButton({
-  id: "attach-script",
-  label: "Attach the script",
-  icon: "./icon-16.png",
-  onClick: attachScript
-});
-
 function attachScript() {
   var worker = tabs.activeTab.attach({
     contentScriptFile: self.data.url("content-script.js")
@@ -20,3 +13,10 @@ function attachScript() {
   });
   worker.port.emit("my-addon-message", "Message from the add-on");
 }
+
+buttons.ActionButton({
+  id: "attach-script",
+  label: "Attach the script",
+  icon: "./icon-16.png",
+  onClick: attachScript
+});
