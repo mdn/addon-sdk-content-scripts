@@ -7,7 +7,7 @@ function handleResponse(message) {
   console.log("received message: '" + message + "' from content script");
 }
 
-tabs.on("ready", function (tab) {
+tabs.on("ready", function(tab) {
   let worker = tab.attach({
     contentScriptFile: self.data.url("content-script.js")
   });
