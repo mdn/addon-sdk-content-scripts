@@ -7,7 +7,7 @@ var forecastPanel = require("sdk/panel").Panel({
   contentScriptFile: data.url("panel-script.js")
 });
 
-forecastPanel.on("show", function () {
+forecastPanel.on("show", function() {
   forecastPanel.port.emit("show");
 });
 
@@ -15,7 +15,7 @@ require("sdk/ui/button/action").ActionButton({
   id: "get-forecast",
   label: "Get the forecast",
   icon: "./icon-16.png",
-  onClick: function () {
+  onClick: function() {
     forecastPanel.show();
   }
 });
