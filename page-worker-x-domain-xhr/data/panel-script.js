@@ -2,6 +2,10 @@
 
 var url = "http://datapoint.metoffice.gov.uk/public/data/txt/wxfcs/regionalforecast/json/500?key=YOUR-API-KEY";
 
+function getSummary(forecast) {
+  return forecast.RegionalFcst.FcstPeriods.Period[0].Paragraph[0].$;
+}
+
 self.port.on("show", function () {
   var request = new XMLHttpRequest();
   request.open("GET", url, true);
@@ -13,7 +17,3 @@ self.port.on("show", function () {
   };
   request.send();
 });
-
-function getSummary(forecast) {
-  return forecast.RegionalFcst.FcstPeriods.Period[0].Paragraph[0].$;
-}

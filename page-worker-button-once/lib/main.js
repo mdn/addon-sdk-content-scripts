@@ -1,6 +1,6 @@
 // main.js
 
-pageWorker = require("sdk/page-worker").Page({
+var pageWorker = require("sdk/page-worker").Page({
   contentScriptFile: require("sdk/self").data.url("content-script.js"),
   contentURL: "http://en.wikipedia.org/wiki/Chalk"
 });

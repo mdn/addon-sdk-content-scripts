@@ -3,7 +3,7 @@
 var pageWorkers = require("sdk/page-worker");
 var self = require("sdk/self");
 
-pageWorker = require("sdk/page-worker").Page({
+var pageWorker = require("sdk/page-worker").Page({
   contentScriptFile: self.data.url("content-script.js"),
   contentURL: "http://en.wikipedia.org/wiki/Internet"
 });
