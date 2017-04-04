@@ -144,7 +144,7 @@ Use [createObjectIn](https://developer.mozilla.org/en-US/docs/Components.utils.c
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs)
 
 **[tabs-exportfunction](tabs-exportfunction)**  
-Use [exportFunction](https://developer.mozilla.org/en-US/docs/Components.utils.exportFunction) to share an function from a content script to a page script.
+Use [exportFunction](https://developer.mozilla.org/en-US/docs/Components.utils.exportFunction) to share a function from a content script to a page script.
 
 * [MDN docs](https://developer.mozilla.org/en-US/Add-ons/SDK/Guides/Content_Scripts/Interacting_with_page_scripts#Expose_objects_to_page_scripts)
 * Modules used: [`tabs`](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs)
